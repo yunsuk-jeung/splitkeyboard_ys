@@ -2,6 +2,12 @@
   "keyboard_name": "ys",
   "url": "",
   "maintainer": "qmk",
+  "processor": "atmega32u4",
+  "usb": {
+    "device_version": "1.0.0",
+    "pid": "0x0002",
+    "vid": "0x431B"
+  },
   "layouts": {
     "LAYOUT": {
       "layout": [
