@@ -2,6 +2,7 @@
   "keyboard_name": "ys",
   "url": "",
   "maintainer": "qmk",
+  "manufacturer": "fff",
   "processor": "atmega32u4",
   "usb": {
     "device_version": "1.0.0",
