@@ -19,7 +19,7 @@ enum {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    [_QWERTY] = LAYOUT(
       _______ , _______      , _______     , _______      , _______     , _______      , _______ ,         _______  , _______      , _______     , _______      , _______     , _______         , _______ , 
-      _______ , LT(_MO,KC_Q ), KC_W        , KC_E         , KC_R        , KC_T         , _______ ,         _______  , KC_Y         , KC_U        , KC_I         , KC_O        , KC_P            , _______ , 
+      _______ , LT(_FUN,KC_Q ), KC_W        , KC_E         , KC_R        , KC_T         , _______ ,         _______  , KC_Y         , KC_U        , KC_I         , KC_O        , KC_P            , _______ , 
       _______ , LCTL_T(KC_A) , LGUI_T(KC_S), LALT_T(KC_D) , LSFT_T(KC_F), LCTL_T(KC_G) , _______ ,         _______  , LCTL_T(KC_H) ,LSFT_T(KC_J) , LALT_T(KC_K) , LGUI_T(KC_L), LCTL_T(KC_SCLN) , _______ ,  
       _______ , LT(_MO,KC_Z) , KC_X        , KC_C         , KC_V        , KC_B         , _______ ,         _______  , KC_N         , KC_M        , KC_COMM      , KC_DOT      , LT(_MO,KC_SLSH ), _______ ,   
       _______ , _______      , _______     , MO(_NUL)     ,               KC_SPC       , MO(_NVL) ,        MO(_NVR) , KC_SPC       ,               MO(_SYM)     , _______     , _______         , _______),
