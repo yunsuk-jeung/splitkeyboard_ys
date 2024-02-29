@@ -24,8 +24,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Select hand configuration */
 #define MASTER_LEFT
 //#define MASTER_RIGHT
-
-//#define TAPPING_TERM 175
+#define TAPPING_TERM 180
 //#define EE_HANDS
 //#undef RGBLED_NUM
 //#define RGBLIGHT_ANIMATIONS
